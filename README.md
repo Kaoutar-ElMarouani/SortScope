@@ -2,7 +2,7 @@
 
 Comparaison experimentale des algorithmes de tri (selection, insertion, bulles,
 fusion, Shell, rapide) avec une interface graphique GTK3 en une seule fenetre.
-TP1 - Structures de Donnees Avancee - FST Casablanca.
+TP1 - Structures de Donnees Avancee - FST Mohammadia.
 
 ## Fonctionnalites
 - Generation de tableaux (int, float, char, double) : aleatoire, deja trie, decroissant
