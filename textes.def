@@ -1,0 +1,132 @@
+/* Toutes les phrases du programme : X(identifiant, francais, anglais, arabe)
+   ATTENTION : garder l'ordre T_SELECTION..T_RAPIDE comme dans tri.h,
+   T_ORD_ALEA..T_ORD_DECROIS comme dans tableau.h, et T_LINEAIRE puis T_LOG. */
+
+X(T_TITRE_APP, "SortScope", "SortScope", "SortScope")
+X(T_SOUS_TITRE, "Comparez les algorithmes de tri en temps réel",
+                "Compare sorting algorithms in real time",
+                "قارن بين خوارزميات الترتيب في الزمن الحقيقي")
+X(T_LANGUE, "Langue", "Language", "اللغة")
+
+X(T_P1, "1 · DONNÉES", "1 · DATA", "1 · البيانات")
+X(T_TYPE, "Type des valeurs", "Value type", "نوع القيم")
+X(T_NOMBRE, "Taille du tableau", "Array size", "حجم الجدول")
+X(T_ORDRE, "Ordre initial", "Initial order", "الترتيب الأولي")
+X(T_ORD_ALEA, "Aléatoire", "Random", "عشوائي")
+X(T_ORD_CROIS, "Déjà trié", "Already sorted", "مرتب مسبقًا")
+X(T_ORD_DECROIS, "Ordre décroissant", "Reverse sorted", "ترتيب تنازلي")
+X(T_GENERER, "Générer le tableau", "Generate array", "توليد الجدول")
+X(T_MANUEL, "Saisie manuelle (10 à 30 valeurs)", "Manual input (10 to 30 values)",
+            "إدخال يدوي (من 10 إلى 30 قيمة)")
+X(T_UTILISER, "Utiliser", "Use", "استخدام")
+
+X(T_P2, "2 · ALGORITHMES", "2 · ALGORITHMS", "2 · الخوارزميات")
+X(T_SELECTION, "Sélection", "Selection", "الاختيار")
+X(T_INSERTION, "Insertion", "Insertion", "الإدراج")
+X(T_BULLES, "Bulles", "Bubble", "الفقاعات")
+X(T_FUSION, "Fusion", "Merge", "الدمج")
+X(T_SHELL, "Shell", "Shell", "شيل")
+X(T_RAPIDE, "Rapide", "Quick", "السريع")
+X(T_REPETITIONS, "Répétitions", "Repetitions", "التكرارات")
+X(T_LANCER, "LANCER LA COMPARAISON", "RUN COMPARISON", "ابدأ المقارنة")
+
+X(T_P3, "3 · PERFORMANCES", "3 · PERFORMANCE", "3 · الأداء")
+X(T_ECHELLE, "Échelle", "Scale", "المقياس")
+X(T_LINEAIRE, "Linéaire", "Linear", "خطي")
+X(T_LOG, "Logarithmique", "Logarithmic", "لوغاريتمي")
+X(T_EXPORT_CSV, "Exporter CSV", "Export CSV", "تصدير CSV")
+X(T_EXPORT_IMG, "Enregistrer l'image", "Save image", "حفظ الصورة")
+X(T_ONGLET_COURBES, "Courbes", "Curves", "المنحنيات")
+X(T_ONGLET_TABLEAU, "Tableau", "Table", "الجدول")
+X(T_ONGLET_AIDE, "Aide", "Help", "مساعدة")
+X(T_TITRE_GRAPH, "Temps d'exécution selon la taille", "Execution time by array size",
+                 "زمن التنفيذ حسب الحجم")
+X(T_AXE_X, "Taille du tableau n", "Array size n", "حجم الجدول n")
+X(T_AXE_Y, "Temps (secondes)", "Time (seconds)", "الزمن (بالثواني)")
+X(T_COL_ALGO, "Algorithme", "Algorithm", "الخوارزمية")
+X(T_COL_TAILLE, "Taille", "Size", "الحجم")
+X(T_COL_TEMPS, "Temps moyen (s)", "Average time (s)", "الزمن المتوسط (ث)")
+
+X(T_P4, "4 · VALEURS", "4 · VALUES", "4 · القيم")
+X(T_INDEX, "Index de départ", "Start index", "فهرس البداية")
+X(T_AFFICHER, "Afficher", "Show", "عرض")
+X(T_VOIR_TRIES, "Voir les valeurs triées", "Show sorted values", "عرض القيم المرتبة")
+X(T_COL_INDICE, "Indice", "Index", "الفهرس")
+X(T_COL_VALEUR, "Valeur", "Value", "القيمة")
+X(T_PRECEDENTES, "100 précédentes", "Previous 100", "المئة السابقة")
+X(T_SUIVANTES, "100 suivantes", "Next 100", "المئة التالية")
+X(T_PLAGE, "%d - %d sur %d valeurs", "%d - %d of %d values", "%d - %d من %d قيمة")
+
+X(T_PRET, "Prêt.", "Ready.", "جاهز.")
+X(T_MSG_GENERE, "Tableau généré : %d valeurs.", "Array generated: %d values.",
+                "تم توليد الجدول: %d قيمة.")
+X(T_MSG_MANUEL, "Tableau saisi : %d valeurs.", "Array entered: %d values.",
+                "تم إدخال الجدول: %d قيمة.")
+X(T_MSG_EN_COURS, "Calcul en cours…", "Running…", "جارٍ الحساب…")
+X(T_MSG_TERMINE, "Terminé : %d mesures. Tous les tableaux sont bien triés.",
+                 "Done: %d measurements. All arrays are correctly sorted.",
+                 "انتهى: %d قياسًا. جميع الجداول رُتبت بشكل صحيح.")
+X(T_MSG_TRI_FAUX, "Attention : un tri n'a pas produit un tableau trié !",
+                  "Warning: a sort did not produce a sorted array!",
+                  "تنبيه: إحدى الخوارزميات لم تنتج جدولًا مرتبًا!")
+X(T_MSG_EXPORT_OK, "Fichier enregistré.", "File saved.", "تم حفظ الملف.")
+X(T_ERR_SAISIE, "Erreur : saisissez uniquement des nombres séparés par des espaces.",
+                "Error: enter numbers only, separated by spaces.",
+                "خطأ: أدخل أرقامًا فقط تفصل بينها مسافات.")
+X(T_ERR_NB, "Erreur : il faut entre 10 et 30 valeurs.", "Error: 10 to 30 values are required.",
+            "خطأ: يجب إدخال ما بين 10 و30 قيمة.")
+X(T_ERR_AUCUN_TRI, "Choisissez au moins un algorithme.", "Select at least one algorithm.",
+                   "اختر خوارزمية واحدة على الأقل.")
+X(T_ERR_INDEX, "Index invalide (entre 0 et n-1).", "Invalid index (between 0 and n-1).",
+               "فهرس غير صالح (بين 0 و n-1).")
+X(T_ERR_PAS_DONNEES, "Générez d'abord un tableau.", "Generate an array first.",
+                     "ولّد جدولًا أولًا.")
+X(T_ERR_AUCUNE_MESURE, "Aucune mesure à exporter.", "No measurements to export.",
+                       "لا توجد قياسات للتصدير.")
+X(T_ERR_EXPORT, "Impossible d'écrire le fichier.", "Could not write the file.",
+                "تعذر كتابة الملف.")
+X(T_BTN_ANNULER, "Annuler", "Cancel", "إلغاء")
+X(T_BTN_ENREGISTRER, "Enregistrer", "Save", "حفظ")
+
+X(T_AIDE,
+  "ALGORITHMES\n"
+  "• Sélection : cherche le plus petit élément et le place au début, puis recommence. O(n²).\n"
+  "• Insertion : place chaque élément au bon endroit dans la partie déjà triée. O(n²), très rapide si le tableau est presque trié.\n"
+  "• Bulles : échange les voisins mal placés, encore et encore. O(n²).\n"
+  "• Fusion : coupe en deux, trie chaque moitié, puis fusionne. O(n log n).\n"
+  "• Shell : insertion avec des sauts décroissants. Entre O(n log n) et O(n²).\n"
+  "• Rapide : choisit un pivot et sépare les petits des grands. O(n log n) en moyenne, O(n²) au pire.\n\n"
+  "MÉTHODE DE MESURE\n"
+  "Chaque tri travaille sur une copie du même tableau. Le chronomètre mesure seulement le tri (pas l'affichage). "
+  "Le temps affiché est la moyenne sur plusieurs répétitions. La comparaison teste toutes les tailles jusqu'à la taille choisie.\n\n"
+  "INTERPRÉTATION\n"
+  "Quand n double, les tris en O(n²) prennent environ 4 fois plus de temps, ceux en O(n log n) un peu plus de 2 fois. "
+  "Utilisez l'échelle logarithmique quand les écarts sont très grands.",
+
+  "ALGORITHMS\n"
+  "• Selection: finds the smallest element and puts it first, then repeats. O(n²).\n"
+  "• Insertion: puts each element at its place in the already sorted part. O(n²), very fast if the array is almost sorted.\n"
+  "• Bubble: swaps neighbours that are in the wrong order, again and again. O(n²).\n"
+  "• Merge: splits in two, sorts each half, then merges. O(n log n).\n"
+  "• Shell: insertion with decreasing gaps. Between O(n log n) and O(n²).\n"
+  "• Quick: picks a pivot and separates small from large. O(n log n) on average, O(n²) worst case.\n\n"
+  "MEASUREMENT METHOD\n"
+  "Each sort works on a copy of the same array. The timer measures only the sort (not the display). "
+  "The time shown is the average over several repetitions. The comparison tests every size up to the chosen size.\n\n"
+  "INTERPRETATION\n"
+  "When n doubles, O(n²) sorts take about 4 times longer, O(n log n) sorts a little more than 2 times. "
+  "Use the logarithmic scale when differences are very large.",
+
+  "الخوارزميات\n"
+  "• الاختيار: يبحث عن أصغر عنصر ويضعه في البداية ثم يكرر العملية. O(n²).\n"
+  "• الإدراج: يضع كل عنصر في مكانه داخل الجزء المرتب. O(n²) وهو سريع جدًا إذا كان الجدول شبه مرتب.\n"
+  "• الفقاعات: يبدّل العناصر المتجاورة الخاطئة مرارًا. O(n²).\n"
+  "• الدمج: يقسم الجدول نصفين ويرتب كل نصف ثم يدمجهما. O(n log n).\n"
+  "• شيل: إدراج بقفزات متناقصة. بين O(n log n) و O(n²).\n"
+  "• السريع: يختار محورًا ويفصل الصغير عن الكبير. O(n log n) في المتوسط و O(n²) في الأسوأ.\n\n"
+  "طريقة القياس\n"
+  "كل خوارزمية تعمل على نسخة من الجدول نفسه. المؤقت يقيس عملية الترتيب فقط (دون العرض). "
+  "الزمن المعروض هو المتوسط على عدة تكرارات. المقارنة تختبر كل الأحجام حتى الحجم المختار.\n\n"
+  "التفسير\n"
+  "عندما يتضاعف n تحتاج الخوارزميات O(n²) إلى زمن أكبر بنحو 4 مرات، وO(n log n) أكبر بقليل من مرتين. "
+  "استعمل المقياس اللوغاريتمي عند وجود فروق كبيرة.")

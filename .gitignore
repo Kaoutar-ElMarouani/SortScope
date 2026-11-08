@@ -1,0 +1,9 @@
+# Fichiers generes par Code::Blocks
+bin/
+obj/
+*.o
+*.exe
+*.depend
+*.layout
+*.win
+*.save-all
